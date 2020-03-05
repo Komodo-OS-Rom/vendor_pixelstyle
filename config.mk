@@ -28,6 +28,10 @@ PRODUCT_PACKAGES += \
     MatchmakerPrebuiltPixel4
 endif
 
+# Screenshot
+PRODUCT_PACKAGES += \
+    Screenshot
+
 # build.prop entrys
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.wallpapers_loc_request_suw=true
